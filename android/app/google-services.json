@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "577690535175",
+    "project_id": "weg-ale",
+    "storage_bucket": "weg-ale.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577690535175:android:58ab287e2fb7f1db7d71a2",
+        "android_client_info": {
+          "package_name": "com.example.weg_ale"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjkItI9fl1KkNGSmJ2rskKUwQ0C6SDW0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
