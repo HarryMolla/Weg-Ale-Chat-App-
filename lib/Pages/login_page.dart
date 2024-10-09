@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weg_ale/autho/auth_service.dart';
+import 'package:weg_ale/services/autho/auth_service.dart';
 import 'package:weg_ale/components/my_textfiled.dart';
 import 'package:weg_ale/components/my_button.dart';
 
@@ -18,11 +18,13 @@ class LoginPage extends StatelessWidget {
       await authService.signInWithEmailPassword(
           emailController.text, passwordController.text);
     } catch (e) {
+      if (context.mounted) {
       showDialog(
-          context: context,
+          context:  context,
           builder: (context) => AlertDialog(
                 title: Text(e.toString()),
               ));
+    }
     }
     //cathc any error
   }
